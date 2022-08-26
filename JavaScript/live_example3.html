@@ -1,0 +1,26 @@
+<!-- Example to demonstrate variables (var vs let vs const) -->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<script type="text/javascript">
+			
+			// Using var vs let vs const
+			var name = 'Jon';
+
+			function greetUser() {
+			  var name = 'Mark';
+			  console.log(name); 	// (2)
+			}
+
+			console.log(name); 		// (1)
+			greetUser();
+			var name = "Silva";
+			console.log(name); 		// (3)
+			name = "Santos";
+			console.log(name); 		// (4)
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>
