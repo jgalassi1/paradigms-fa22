@@ -1,3 +1,4 @@
+<!-- Demonstrates prompts -->
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -5,9 +6,14 @@
 	</head>
 	<body>
 		<script type="text/javascript">
-			if(-1 || 0) alert("First");
-			if(-1 && 0) alert("Second");
-			if(null ||  -1 && 1) alert("Third");
+		let age = prompt('How old are you?', 100);
+		alert(age); 
+
+		let exitNow = confirm("Would you like to exit?")
+		if(exitNow) // true if ok is pressed
+			alert("User want to exit");
+		else 
+			alert("User do not want to exit");
 		</script>
 	</body>
 </html>
